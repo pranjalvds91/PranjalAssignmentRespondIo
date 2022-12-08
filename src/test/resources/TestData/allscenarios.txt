@@ -1,0 +1,40 @@
+Feature: Add Book  
+Scenario: Users are able add booking with all details 
+	
+	Given User enter the URL of adding book
+	When User enter the details of book
+    Then User validate the status of book added
+    
+    
+  Scenario: Users are able add booking Without Addtional needs
+	
+	Given User enter the URL of adding book
+	When User enter the details of book Without Addtional needs
+    Then User validate the status of book added Without Addtional needs
+	
+	
+	 Scenario: Users are able add booking With Old Dates
+	
+	Given User enter the URL of adding book
+	When User enter the details of book With Old Dates
+    Then User validate the status of book added With Old Dates
+	
+	  Scenario: Users are able add booking with Blank Checkout Date and Checkin Date
+	
+	Given User enter the URL of adding book
+	When User enter the details of book with Blank Checkout Date and Checkin Date
+    Then User validate the status of book added with Blank Checkout Date and Checkin Date
+    
+    
+    Scenario: Users are able add booking with Blank details of Both First and Last Name
+	
+	Given User enter the URL of adding book
+	When User enter the details of book with Blank details of Both First and Last Name
+    Then User validate the status of book added with Blank details of Both First and Last Name
+    
+    
+    Scenario: Users are able add booking with With Negative money value
+	
+	Given User enter the URL of adding book
+	When User enter the details of book with With Negative money value
+    Then User validate the status of book added with With Negative money value

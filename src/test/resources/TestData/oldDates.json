@@ -1,0 +1,11 @@
+{
+    "firstname" : "Pranjal_A1",
+    "lastname" : "Brown_A1",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2021-02-23",
+        "checkout" : "2021-02-23"
+    },
+    "additionalneeds" : "BreakfastLunch"
+}
