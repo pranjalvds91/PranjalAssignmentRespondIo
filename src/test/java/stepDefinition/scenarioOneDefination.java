@@ -231,9 +231,17 @@ public class scenarioOneDefination {
              
               final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
              scenario.embed(screenshot, "image/png");
+             driver.close();
              
             }
+            if(driver== null)
+            {
+            	System.out.println("check");
+            }
+            else
+            {
             driver.close();
+            }
         }
         
         

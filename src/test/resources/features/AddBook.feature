@@ -1,6 +1,4 @@
 Feature: Add Book  
- 
-Feature: Add Book  
 Scenario: Users are able to add booking of hotels with all details 
 	
 	Given User enter the URL of adding book
